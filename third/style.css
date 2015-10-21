@@ -1,0 +1,71 @@
+body {
+	height: 100%;
+	width: 100%:;
+}
+
+h1 {
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+	display: inline-block;
+}
+h2 {
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+	display: inline-block;
+}
+
+h3 {
+	color: black;
+	font-size: 35px;
+}
+header {
+	background-color: black;
+	height: 80px;
+	margin-top: -21px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.container {
+	background-color: white;
+	height: 80%;
+	width: 100%;
+}
+
+.left-side {
+	background-color: white;
+	margin-left: 25px;
+	height:100px;
+	width:45%;
+	float: left;
+}
+
+.right-side {
+	background-color: white;
+	height: 100px;
+	width: 45%;
+	float: left;
+	margin-right: 10px;
+	word-wrap: break-word;
+
+}
+
+.photo {
+	height: 300px;
+	margin-top: 30px;
+	width: 100%;
+	background-image: url(http://img3.wikia.nocookie.net/__cb20130108205107/southpark2/de/images/1/1a/Eric_Cartman.jpg);
+}
+
+footer {
+	position: absolute;
+	background-color: black;
+	height: 80px;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	margin-left: -10px;
+}
+
