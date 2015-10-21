@@ -1,0 +1,72 @@
+body {
+	height: 100%;
+	width: 100%;
+	background-color: lightgray;
+	overflow-x: hidden;
+}
+
+.top-container {
+	background-color: white;
+	height: 200px;
+	width: 80%;
+	position: fixed;
+	left: 10%;
+	right: 10%;
+	top: 5%;
+}
+
+.text-box {
+	width: 60%;
+	height: 50%;
+	position: relative;
+	left: 5%;
+	right: 10%;
+
+}
+
+
+.red-click {
+	width: 130px;
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 5%;
+	background-color: red;
+}
+
+.blue-click {
+	width: 130px;
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 10%;
+	background-color: blue;
+}
+
+.click {
+	width: 70px;
+	height: 25px;
+	position: absolute;
+	text-align: center;
+	right: 25%;
+}
+
+
+
+.bottom-container{
+	background-color: white;
+	height: 400px;
+	width: 80%;
+	position: fixed;
+	bottom: 50px;
+	left: 10%;
+}
+
+.image-box {
+	width: 90%;
+	height: 50%;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	background-image: url(https://i.ytimg.com/vi/Xm88rF3GpLg/maxresdefault.jpg);
+}
